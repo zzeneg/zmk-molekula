@@ -19,17 +19,26 @@
 #
 ---
 include:
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: molekula nice_view_adapter nice_view
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: molekula_studio_nice_view
 
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: molekula rgbled_adapter
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: molekula_studio_led
 
-  - board: nice_nano_v2
+  - board: nice_nano
+    shield: molekula
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+    artifact-name: molekula_dongle_kb
+
+  - board: xiao_ble
+    shield: molekula_dongle underdongle_adapter raw_hid_adapter
+    artifact-name: molekula_dongle
+
+  - board: nice_nano
     shield: settings_reset
