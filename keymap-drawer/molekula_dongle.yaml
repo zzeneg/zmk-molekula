@@ -1,4 +1,4 @@
-layout: {zmk_keyboard: molekula}
+layout: {zmk_keyboard: molekula_dongle}
 layers:
   BASE:
   - W
