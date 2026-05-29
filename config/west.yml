@@ -14,6 +14,9 @@ manifest:
     - name: zmk-raw-hid
       remote: zzeneg
       revision: main
+    - name: zmk-nice-view-hid
+      remote: zzeneg
+      revision: main
     - name: zmk-component-underdongle
       remote: zzeneg
       revision: main
