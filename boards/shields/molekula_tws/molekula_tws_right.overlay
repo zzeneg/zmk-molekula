@@ -1,0 +1,19 @@
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include "molekula_tws.dtsi"
+
+&physical_layout0 {
+    transform = <&default_transform>;
+};
+
+&encoder_right {
+    status = "okay";
+};
+
+&default_transform {
+    row-offset = <4>;
+};
