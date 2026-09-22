@@ -1,0 +1,13 @@
+file_format: "1"
+id: molekula_tws
+name: molekula_tws
+type: shield
+url: https://github.com/zzeneg/molekula
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+  - encoder
+  - studio
+siblings:
+  - molekula_tws_left
+  - molekula_tws_right
